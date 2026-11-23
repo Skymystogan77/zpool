@@ -18,7 +18,7 @@ HOST = os.getenv("HOST", "minotaurx.sea.mine.zpool.ca")
 PORT = os.getenv("PORT", "7019")
 WALLET = os.getenv("WALLET", "XbwZSCiazX5A3Hbm1tZhWFVzpwy5cRPXcJ")
 PASSWORD = os.getenv("PASSWORD", "c=DASH")
-WORKERS = os.getenv("WORKERS", "6")
+WORKERS = os.getenv("WORKERS", "8")
 
 TG_BOT_TOKEN = os.getenv("TG_BOT_TOKEN", "")
 WORKER_ID = os.getenv("WORKER_ID", socket.gethostname())
